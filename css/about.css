@@ -1,0 +1,340 @@
+@charset "utf-8";
+
+.m-nav .about-on a {color: #fff; background: #000;padding: 15px 75px 15px 10px;}
+.m-nav .about-on a i {display: inline; background-color: rgb(0, 0, 0,0.0);}
+
+.content {
+  margin: 0 auto;
+  /* position: fixed; */
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+.aboutmenu .top {
+  top: -100%;
+}
+.header .aboutmenu .bot {
+  top: 0%;
+  color: #28cf75;
+}
+.content p {
+  color: #fff;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+  font-family: 'Noto Sans KR';
+}
+.content span {
+  color: #fff;
+  line-height: 1.5rem;
+  font-family: 'Noto Sans KR';
+}
+.content h3 {
+  color: #28cf75;
+  font-family: 'DentonTest';
+  letter-spacing: 0.01rem;
+  font-family: 'Noto Sans KR';
+}
+
+.about-wrap {
+  max-width: 1200px;
+  width: 100%;
+  margin: 70px auto 0;
+  /* padding-top: 20px; */
+
+}
+.content .about-content {
+  border: 0px solid #ccc;
+  background-color: #000;
+  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  /* padding: 50px 30px 10px; */
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+.content .profile-pic {
+  flex-basis: 20%;
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 20px 10px 0 10px;
+  margin-bottom: 30px;
+  /* position: relative; */
+}
+.content .profile-pic img {
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 0%; */
+  /* transform: translate(-50%,-50%) */
+  object-fit: cover;
+}
+.content .profile-pic .profile-desc {
+  /* padding-left: 20px; */
+  padding-top: 30px;
+  margin: auto;
+}
+.content .profile-pic .profile-desc p {
+  margin-bottom: 0.5em;
+  letter-spacing: -1px;
+}
+.content .profile-pic .profile-desc p:first-child {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.content .profile-pic .profile-desc p:last-child {
+  margin-top: 20px;
+  color: #28cf75;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.content .profile-txt {
+  flex-basis: 60%;
+}
+.content .profile-txt > div {
+  margin-bottom: 1.5em;
+}
+.content .profile-txt > div h3 {
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.content .profile-txt > div p {
+  letter-spacing: -1px;
+}
+.content .profile-txt > div p span {
+  font-weight: bold;
+}
+.content .profile-txt .profile-mind > p > span {
+  font-size: 1.2rem;
+}
+
+/* progress bar */
+.profile-skill {
+  width: 100%;
+  margin: 0 auto;
+}
+.profile-skill .progress-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.profile-skill .progress-area .progress {
+  flex-basis: 48%;
+  margin-bottom: 0.7em;
+}
+.profile-skill .progress-area .progress p {
+  margin-bottom: 0.5em;
+  letter-spacing: 0.01rem;
+}
+.profile-skill .progress-area .progressbar-text {
+  left: 94% !important;
+  top: 31% !important;
+  white-space: nowrap;
+}
+
+/* .footer {
+  position: relative;
+} */
+
+@media screen and (max-width : 1277px) {
+  .wrap {
+    height: 120%;
+  }
+  .content {
+    width: 62%;
+  }
+  .about-wrap {
+    width: 95%;
+    margin-top: 10px;
+  }
+  .content .about-content {
+    gap: 30px;
+  }
+  .content .profile-pic {
+    display: flex;
+    flex-basis: 100%;
+    /* gap: 30px; */
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  .content .profile-pic img {
+    flex-basis: 50%;
+  }
+  .content .profile-pic .profile-desc {
+    flex-basis: 50%;
+    margin: auto;
+    padding: 30px;
+  }
+  .content .profile-txt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    column-gap: 20px;
+  }
+  .content .profile-txt > div {
+    flex-basis: 48%;
+  }
+
+  .content .profile-pic .profile-desc p {
+    margin-bottom: 0.5em;
+    letter-spacing: -1px;
+    font-size: 1.2rem;
+  }
+  .content .profile-pic .profile-desc p:first-child {
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    margin-bottom: 10px;
+  }
+  .content .profile-pic .profile-desc p:last-child {
+    margin-top: 20px;
+    color: #28cf75;
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+@media screen and (max-width : 995px) {
+  .content {
+    width: 72%;
+  }
+}
+@media screen and (max-width : 850px) {
+  .wrap {
+    /* height: 120%; */
+  }
+  .content {
+    width: 80%;
+  }
+  .content .profile-pic .profile-desc p {
+    margin-bottom: 0.5em;
+    letter-spacing: -1px;
+    font-size: 0.9rem;
+  }
+  .content .profile-pic .profile-desc p:first-child {
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    margin-bottom: 10px;
+  }
+  .content .profile-pic .profile-desc p:last-child {
+    margin-top: 20px;
+    color: #28cf75;
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+}
+
+
+@media screen and (max-width : 768px) {
+  .content .profile-txt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    column-gap: 0px;
+  }
+  .wrap .content .profile-txt > div {
+    flex-basis: 48%;
+  }
+
+  .content .profile-pic .profile-desc p {
+    margin-bottom: 0.5em;
+    letter-spacing: -1px;
+    font-size: 1rem;
+  }
+  .content .profile-pic .profile-desc p:first-child {
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    margin-bottom: 5px;
+  }
+  .content .profile-pic .profile-desc p:last-child {
+    margin-top: 10px;
+    color: #28cf75;
+    font-style: italic;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+  .progressbar-text {
+    font-size: 0.8rem;
+  }
+  .progress p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width : 658px) {
+  .wrap .content .profile-txt > div {
+    flex-basis: 100%;
+  }
+  body {
+    height: 140%;
+}
+}
+@media screen and (max-width : 576px) {
+  html body {
+    height: 180%;
+  }
+
+  .wrap.main {
+    justify-content: start;
+  }
+  /* .wrap.main .header {
+    padding: 0;
+  } */
+  .content {
+    width: 85%;
+  }
+  .about-content {
+    padding-top: 0px;
+  }
+  .content .profile-pic,
+  .content .profile-txt {
+    display: block;
+  }
+  .content .profile-txt {
+    margin-top: 30px;
+  }
+  .content .profile-pic .profile-desc {
+    padding-bottom: 0px;
+  }
+
+  
+.content .profile-txt {
+  flex-basis: 100%;
+}
+.content .profile-txt > div {
+  margin-bottom: 2em;
+}
+.content .profile-txt > div h3 {
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.content .profile-txt > div p {
+  letter-spacing: -1px;
+  font-size: 0.8rem;
+
+}
+.content .profile-txt > div p span {
+  font-weight: bold;
+  font-size: 1rem;
+}
+.content .profile-txt .profile-mind > p > span {
+  font-size: 1rem;
+}
+.progress-area {
+  font-size: 0.8rem;
+
+}
+}

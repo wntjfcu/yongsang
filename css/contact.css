@@ -1,0 +1,369 @@
+@charset "utf-8";
+
+.m-nav .contact-on a {color: #fff; background: #000;padding: 15px 60px 15px 10px;}
+.m-nav .contact-on a i {display: inline; background-color: rgb(0, 0, 0,0.0);}
+
+.content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.contactmenu .top {
+   top: -100%;
+ }
+ .header .contactmenu .bot {
+   top: 0%;
+   color: #28cf75;
+ }
+.content .contact-wrap {
+    min-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    /* padding-bottom: 100px; */
+}
+.content p {
+  color: #fff;
+  line-height: 6rem;
+}
+.content .contact-content {
+    background-color: #000;
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+    /* padding: 50px 30px; */
+    box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, .2);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    position: relative;
+}
+.content .contact-content > div {
+    flex-basis: 100%;
+}
+
+.content .contact-content .title {
+    /* padding-top: 1em; */
+    
+    /* letter-spacing: -1px; */
+    /* padding-bottom: 100px; */
+}
+.content .contact-content .title p {
+  font-family: 'Notosans KR';
+}
+.content .contact-content .sns {
+    /* margin: 50px auto; */
+    /* position: absolute; */
+    width: 100%;
+    /* bottom: 15%; */
+    margin: 50px auto;
+    /* padding: 30px auto; */
+}
+.content .contact-content .sns ul {
+    display: flex;
+    justify-content: center;
+}
+.content .contact-content .sns ul li {
+    flex-basis: 10%;
+    height: 50px;
+    text-align: center;
+}
+.content .contact-content .sns ul li img {
+    width: 50px;
+    height: 50px;
+}
+.content .contact-content .sns ul li a {}
+.content .contact-content .sns ul li a i {
+    font-size: 50px;
+}
+.content .contact-content .txt p {
+  line-height: 1rem;
+}
+.content .contact-content .txt {
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Notosans KR';
+    /* padding-top: 50px; */
+    margin-top: 0px;
+    display: block;
+}
+.content .contact-content .txt::after {
+  background-color: #fff;
+  content: '';
+  display: block;
+  width: 90%;
+  height: 1px;
+  margin: 30px auto 0;
+}
+.content .contact-content .txt p {
+  /* margin-top: 70px; */
+  /* margin-bottom: 10px; */
+  
+}
+.title .ptop {
+  font-size: 1rem;
+  font-weight: 100;
+  border: 1px solid white;
+  margin: 30px auto 50px;
+  width: 20rem;
+  height: 3rem;
+  line-height: 3rem;
+  
+}
+
+.title .pone {
+  font-size: 2.2rem;
+  color: #28cf75;
+}
+.title .pone em {
+  background-color: #28cf75;
+  color: #000;
+  font-size: 4rem;
+  font-weight: 900;
+}
+.title .ptwo {
+  font-size: 2.1rem;
+  margin-left: 300px;
+}
+.title .ptwo em {
+  background-color: #fff;
+  color: #000;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+/* .footer {
+    position: relative;
+} */
+
+@media screen and (max-width : 1200px) {
+    .content .contact-wrap {
+        min-width: 100px;
+        width: 95%;
+    }
+    /* .content .contact-content {
+        width: 95%;
+    } */
+    .content .contact-content .txt::after {
+      background-color: #fff;
+      content: '';
+      display: block;
+      width: 65%;
+      height: 1px;
+      /* margin: 0px auto 0; */
+      }
+      .content .contact-content .sns {
+        bottom: 33%;
+      }
+  .content .contact-content .sns ul li a i {
+    font-size: 50px;
+  }
+  .content .contact-content .sns ul li img {
+    width: 50px;
+    height: 50px;
+  }
+
+}
+@media screen and (max-width : 850px) {
+  .content .contact-content .txt::after {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width : 640px) {
+    .content .contact-content .sns ul li {
+        flex-basis: 20%;
+        height: 50px;
+        text-align: center;
+    }
+    .content .contact-content .txt::after {
+      width: 85%;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+
+/* content 영역 - section title */
+.content {
+  width: 100%;
+}
+.content .content-wrap {
+  max-width: 1200px;
+  width: 100%;
+  margin: 176px auto 100px;
+  padding: 25px 0;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, .2);
+  border-radius: 7px;
+  /* display: flex; */
+}
+.content .title {
+  text-align: center;
+  font-size: 32px;
+}
+.content .title h2 {
+  position: relative;
+}
+.content .title h2::after {
+  content: '';
+  position: absolute;
+  width: 3%;
+  height: 3px;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000;
+}
+
+
+@media screen and (max-width : 1277px) {
+  .content {}
+  .content .contact-content {
+    /* width: 70%; */
+  }
+  .wrap .pone {
+    margin-bottom: 20px;
+  }
+  .wrap .ptwo {
+    line-height: 3rem;
+    font-size: 32px;
+  }
+}
+@media screen and (max-width : 1200px) {
+  .wrap {
+    /* height: 120%; */
+  }
+  .content {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .wrap .content .pone {
+    font-size: 1.8rem;
+  }
+  .content .pone em {
+    font-size: 3rem;
+  }
+  .content .ptwo  {
+    font-size: 1.8rem;
+    margin-left: 230px;
+  }
+  .content .ptwo em {
+    font-size: 3rem;
+  }
+}
+
+
+@media screen and (max-width : 1059px) {
+  .wrap .title .txt {
+    /* width: 50%; */
+    margin: 0 auto;
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width : 998px) {
+  .wrap .content .pone {
+    font-size: 1.6rem;
+  }
+  .content .pone em {
+    font-size: 2.5rem;
+  }
+  .content .ptwo  {
+    font-size: 1.6rem;
+    margin-left: 200px;
+  }
+  .content .ptwo em {
+    font-size: 2.8rem;
+  }
+
+}
+@media screen and (max-width : 896px) {
+  .content .ptwo  {
+    font-size: 1.6rem;
+    margin-left: 170px;
+  }
+}
+@media screen and (max-width : 856px) {
+  .wrap .content .pone {
+    font-size: 1.2rem;
+  }
+  .content .pone em {
+    font-size: 2rem;
+  }
+  .content .ptwo  {
+    font-size: 1.2rem;
+    margin-left: 140px;
+  }
+  .content .ptwo em {
+    font-size: 2rem;
+  }
+  .wrap.main {
+    height: 100%;
+}
+.wrap .title .txt {
+  /* width: 50%; */
+  margin: 0 auto;
+  font-size: 0.6rem;
+}
+}
+@media screen and (max-width : 646px) {
+  .wrap .content .pone {
+    font-size: 1rem;
+  }
+  .content .pone em {
+    font-size: 1.5rem;
+  }
+  .content .ptwo  {
+    font-size: 1rem;
+    margin-left: 0px;
+  }
+  .content .ptwo em {
+    font-size: 1.5rem;
+  }
+  .wrap.main {
+    height: 100%;
+}
+.wrap .title .txt {
+  /* width: 50%; */
+  /* height: 50%; */
+  margin: 0 auto;
+  font-size: 0.4rem;
+}
+}
+
+@media screen and (max-width : 576px) {
+  .title .pone {
+    line-height: 1.2rem;
+    margin-bottom: 0;
+    margin: 30px auto 10px;
+  }
+  .title .ptop {
+    font-size: 0.8rem;
+    margin: 0 auto;
+    width: 85%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+  }
+  .content .pone em {
+    background: none;
+    color: #fff;
+    font-size: 1.1rem;
+
+  }
+  .content .ptwo em {
+    background: none;
+    color: #28cf75;
+    font-size: 1.1rem;
+
+  }
+  .content .contact-content .sns {
+    /* position: absolute; */
+    /* width: 100%;
+    height: 100%;
+    bottom: -55%; */
+  }
+  .wrap .title .txt {
+    margin-top:200px;
+  }
+  .content .contact-content .txt {
+    margin-top: 100px;
+}
+}
